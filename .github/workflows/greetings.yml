@@ -1,0 +1,16 @@
+name: Greetings
+
+on: [pull_request_target, issues]
+
+jobs:
+  greeting:
+    runs-on: ubuntu-latest
+    permissions:
+      issues: write
+      pull-requests: write
+    steps:
+    - uses: actions/first-interaction@v1
+      with:
+        repo-token: ${{ secrets.GITHUB_TOKEN }}
+        issue-message: "Welcome to Dream Big Repo.. Please learn as much about GitHub as you can and use this repo as your central hub!"
+        pr-message: "Congratulations of your first pull request, Keep it up, we are keepin count of all your contributions for you to share at the end of this unit!"
