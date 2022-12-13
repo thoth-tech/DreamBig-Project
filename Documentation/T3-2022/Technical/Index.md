@@ -1,4 +1,5 @@
 # Backend Team
+Please watch the [handover video](https://video.deakin.edu.au/media/t/1_oex74x7y) before reading other documents
 
 ## Handover
 Please see the Important Links file for the main links that we refer to when contributing to Dream Big.
